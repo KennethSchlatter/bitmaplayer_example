@@ -1,0 +1,35 @@
+{
+    "author": "help.frostedtorus@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "bitmap-layer",
+    "pebble": {
+        "capabilities": [
+            ""
+        ],
+        "displayName": "Bitmap Layer",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/asl_color_clear.png",
+                    "name": "IMAGE_RESOURCE",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "uuid": "51f84e8a-42a7-44c4-94fc-98e57d5ffbfa",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
